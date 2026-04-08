@@ -1,0 +1,30 @@
+{
+  "name": "jeju-color",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.34.0",
+    "@supabase/supabase-js": "^2.102.1",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "resend": "^6.10.0",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/sharp": "^0.31.1",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.0",
+    "playwright": "^1.59.1",
+    "typescript": "^5.9.0"
+  }
+}

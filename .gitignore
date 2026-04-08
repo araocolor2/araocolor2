@@ -5,3 +5,17 @@
 .env.test.local
 .env.production.local
 !.env.example
+
+# dependencies
+node_modules/
+
+# build output
+.next/
+out/
+
+# logs
+npm-debug.log*
+
+# clerk configuration (can include secrets)
+/.clerk/
+.playwright-mcp/
